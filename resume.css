@@ -1,0 +1,198 @@
+/* General Resume Layout */
+.resume-container {
+    display: flex;
+    width: 100vw;
+    /* height: 100vh; */
+    font-family: 'times new roman', sans-serif;
+    text-align: justify;
+}
+
+/* Left Section */
+.box1 {
+    background-color: #002244;
+    color: white;
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+/* Profile Photo */
+.photo img {
+    height: 195px;
+    width: 180px;
+    border-radius: 50%;
+    /* border: 4px solid white; */
+    box-shadow: 0 0 15px #002244;
+}
+
+.photo ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.photo ul li {
+    margin-bottom: 8px;
+    opacity: 0.9;
+}
+
+.photo ul a {
+    color: #4dabf7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.photo ul a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+.skills h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.skill-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skill-buttons button {
+    background: linear-gradient(135deg, #1e90ff, #00c6ff);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.skill-buttons button:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 10px rgba(0, 198, 255, 0.3);
+}
+
+/* Achievements */
+.achievements h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.achievements ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.achievements li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------from here the box2 starts--------------------------------------------- */
+
+.name {
+    font-size: 400% !important;
+    font-weight: bold; /* Optional: Makes the text bold */
+    /* text-align: center; */
+    color: #002244;
+    border: 0%;
+    margin: 0%;
+    margin-top: 5%;
+}
+
+
+/* Right Section */
+.box2 {
+    background: linear-gradient(to right, #f4f4f4, #dcdcdc);
+    color: #002244;
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* Right Section */
+.box2 h1 {
+    font-size: 32px;
+    /* margin-bottom: 10px; */
+}
+
+.box2 p {
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+hr {
+    color: 002244;
+    background-color: #002244;
+}
+
+.edu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .edu-item span {
+    font-weight: normal;
+    color: #002244; /* Greenish color for CGPA */
+  }
+  
+  p {
+    margin: 2px 0 10px;
+    font-size: 14px;
+    color: #002244;
+  }
+
+
+
+  .experience-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .experience-date {
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+
+  
+  .section-divider {
+    border: none;
+    height: 3px;
+    background-color: #002244;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  
+
+
